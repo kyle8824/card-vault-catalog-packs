@@ -1,0 +1,15 @@
+CATALOG-ONLY LIVE APPEND for card-vault.grok.me (project f5324530).
+
+HARD RULES:
+- Catalog data / catalog page only. NO UI redesign, NO shell/chrome changes.
+- Preserve Collection / inventory exactly.
+- Never invent checklist rows.
+- Merge/append attached JSONL into existing live catalog (do not replace whole app).
+
+ATTACHMENTS: extract each batch-*.tar.gz
+- batch-00-meta: sets.jsonl + sources.jsonl + PUBLISH.md
+- batch-01..09: cards-part-*.jsonl — concatenate all into cards append
+
+After merge publish to LIVE card-vault.grok.me.
+Verify: open a 2008 set, a 2009 set, and 2003 UD Ultimate Collection — checklists must show cards.
+Report final live counts: sets, cards, latest year.
