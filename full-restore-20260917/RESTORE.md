@@ -24,7 +24,12 @@ Restore LIVE `card-vault.grok.me` catalog to the **full** on-disk tree (all year
 - **Track B:** meta upgraded 89; card-replaced sets 161; TB cards written 25062
 
 ### Years 2005–2009
-- **2005:** 551 sets (544 complete / 7 stub), 107333 cards\n- **2006:** 2131 sets (2124 complete / 7 stub), 171414 cards\n- **2007:** 2763 sets (2756 complete / 7 stub), 201923 cards\n- **2008:** 2476 sets (2476 complete / 0 stub), 207512 cards\n- **2009:** 2383 sets (2382 complete / 1 stub), 161124 cards\n
+
+- **2005:** 551 sets (544 complete / 7 stub), 107333 cards
+- **2006:** 2131 sets (2124 complete / 7 stub), 171414 cards
+- **2007:** 2763 sets (2756 complete / 7 stub), 201923 cards
+- **2008:** 2476 sets (2476 complete / 0 stub), 207512 cards
+- **2009:** 2383 sets (2382 complete / 1 stub), 161124 cards
 ## Layout
 ```
 card-vault-full-restore-20260917/
