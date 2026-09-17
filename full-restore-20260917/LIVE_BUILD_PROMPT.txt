@@ -1,0 +1,34 @@
+CATALOG-ONLY FULL RESTORE for LIVE card-vault.grok.me
+Project: f5324530-f272-4e30-a437-95b578daeec9
+
+HARD RULES:
+1. Catalog data /catalog routes only — NO UI redesign, NO shell/chrome changes.
+2. Preserve Collection/inventory exactly (~131 items).
+3. Never invent checklist rows — only use attached/fetched pack rows.
+4. Restore ALL years (pre-war through 2009). Do NOT keep or publish the 2005–2007-only sandbox shrink.
+5. Do NOT click Publish Changes until public/catalog has the full tree and verification below passes.
+
+PACK (GitHub):
+https://github.com/kyle8824/card-vault-catalog-packs/tree/master/full-restore-20260917
+
+Fetch shards/ from that folder (or the workspace mirror):
+- sets-index.json.gz → public/catalog/sets-index.json
+- sets.jsonl.gz / sources.jsonl.gz (reference)
+- cards-*.jsonl.gz year shards → assemble public/catalog/set-cards/{set_id}.json
+  (group JSONL by set_id; write one JSON array per set, matching existing live set-cards schema)
+See shards/SHARDS.md.
+
+EXPECTED TALLY after assemble:
+- ~15,580 sets
+- ~1,748,086 listed cards
+- 2006 and 2007 fully present (thousands of sets each, not 9+8)
+
+VERIFY before Publish:
+- 2006 Topps Baseball checklist non-empty
+- 2007 Topps Baseball checklist non-empty
+- 2008 Topps Baseball still ~661 cards
+- A pre-1990 / 1990s set still loads
+- Collection still ~131
+- sets-index set_count ~15,580
+
+Report sandbox file counts and sample set-card sizes. WAIT for human before Publish.

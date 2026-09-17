@@ -1,0 +1,65 @@
+{
+  "built": "20260917T235356Z",
+  "sets_total": 15580,
+  "cards_total": 1748086,
+  "sources_total": 15043,
+  "complete": 15426,
+  "partial": 5,
+  "stub": 140,
+  "unlabeled": 9,
+  "coverage": {
+    "complete": 15426,
+    "stub": 140,
+    "partial": 5,
+    "null": 9
+  },
+  "images_with_url": 9,
+  "year_2005_2009": {
+    "2005": {
+      "sets": 551,
+      "complete": 544,
+      "partial": 0,
+      "stub": 7,
+      "cards": 107333
+    },
+    "2006": {
+      "sets": 2131,
+      "complete": 2124,
+      "partial": 0,
+      "stub": 7,
+      "cards": 171414
+    },
+    "2007": {
+      "sets": 2763,
+      "complete": 2756,
+      "partial": 0,
+      "stub": 7,
+      "cards": 201923
+    },
+    "2008": {
+      "sets": 2476,
+      "complete": 2476,
+      "partial": 0,
+      "stub": 0,
+      "cards": 207512
+    },
+    "2009": {
+      "sets": 2383,
+      "complete": 2382,
+      "partial": 0,
+      "stub": 1,
+      "cards": 161124
+    }
+  },
+  "track_b_overlay": {
+    "sets_upgraded_meta": 89,
+    "sets_added": 0,
+    "sets_card_replaced": 161,
+    "tb_cards_written": 25062,
+    "tb_export_sets": 381,
+    "tb_export_cards": 25062
+  },
+  "base": "card-vault-live-merge-20260915",
+  "overlay": "card-vault-track-b-export-20260917/catalog",
+  "rules": "catalog-only; prefer complete>partial>stub; never invent rows; preserve Collection"
+}

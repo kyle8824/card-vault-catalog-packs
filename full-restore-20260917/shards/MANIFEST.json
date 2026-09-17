@@ -1,0 +1,106 @@
+{
+  "built": "20260917T235419Z",
+  "live_schema": {
+    "sets_index": "/catalog/sets-index.json",
+    "set_cards": "/catalog/set-cards/{set_id}.json",
+    "note": "LIVE serves per-set JSON under set-cards/. Year shards below are source material for Build to assemble that tree. Do NOT publish 2005-2007-only sandbox."
+  },
+  "shards": [
+    {
+      "file": "cards-1990-1994.jsonl.gz",
+      "bucket": "1990-1994",
+      "cards": 138887,
+      "bytes": 2442124
+    },
+    {
+      "file": "cards-1995-1999.jsonl.gz",
+      "bucket": "1995-1999",
+      "cards": 285271,
+      "bytes": 5233795
+    },
+    {
+      "file": "cards-2000.jsonl.gz",
+      "bucket": "2000",
+      "cards": 63159,
+      "bytes": 1200654
+    },
+    {
+      "file": "cards-2001.jsonl.gz",
+      "bucket": "2001",
+      "cards": 80815,
+      "bytes": 1489251
+    },
+    {
+      "file": "cards-2002.jsonl.gz",
+      "bucket": "2002",
+      "cards": 72703,
+      "bytes": 1355545
+    },
+    {
+      "file": "cards-2003.jsonl.gz",
+      "bucket": "2003",
+      "cards": 81062,
+      "bytes": 1535553
+    },
+    {
+      "file": "cards-2004.jsonl.gz",
+      "bucket": "2004",
+      "cards": 82648,
+      "bytes": 1566683
+    },
+    {
+      "file": "cards-2005.jsonl.gz",
+      "bucket": "2005",
+      "cards": 107333,
+      "bytes": 2080668
+    },
+    {
+      "file": "cards-2006.jsonl.gz",
+      "bucket": "2006",
+      "cards": 171414,
+      "bytes": 2994934
+    },
+    {
+      "file": "cards-2007.jsonl.gz",
+      "bucket": "2007",
+      "cards": 201923,
+      "bytes": 3318587
+    },
+    {
+      "file": "cards-2008.jsonl.gz",
+      "bucket": "2008",
+      "cards": 207512,
+      "bytes": 3444889
+    },
+    {
+      "file": "cards-2009.jsonl.gz",
+      "bucket": "2009",
+      "cards": 161124,
+      "bytes": 2872297
+    },
+    {
+      "file": "cards-pre-1990.jsonl.gz",
+      "bucket": "pre-1990",
+      "cards": 91253,
+      "bytes": 1552289
+    },
+    {
+      "file": "cards-unknown.jsonl.gz",
+      "bucket": "unknown",
+      "cards": 2982,
+      "bytes": 37194
+    },
+    {
+      "file": "cards-ALL.jsonl.gz",
+      "bucket": "ALL",
+      "cards": 1748086,
+      "bytes": 31123226,
+      "optional_full": true
+    }
+  ],
+  "also": [
+    "sets.jsonl.gz",
+    "sources.jsonl.gz",
+    "sets-index.json.gz"
+  ]
+}
